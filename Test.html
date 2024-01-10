@@ -1,0 +1,45 @@
+<html>
+	<head>
+		
+		<style>
+		body {
+			background-color: #202020;
+		}
+		#TitleDisplay {
+			text-align: center;
+		}
+		#GeneratorButton {
+			background-color: #AAAA00;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 4px;
+		}
+		</style>
+		
+		<title>Core Generation</title>
+		
+	</head>
+	
+	<body>
+		<font face="monospace" color="#FFFFFF" size= "6px">
+			<h3 id="TitleDisplay">
+				You have  
+				<font face="monospace" color="#AAAA00" size= "7px">
+					<span id="Core">0</span>
+				</font>
+				Core.
+			</h3>
+		</font>	
+		
+		<script src="https://cdn.jsdelivr.net/npm/break_infinity.js@2"></script>
+		<script>
+			var Core = new Decimal("0");
+			document.getElementById("Core").innerHTML = Core;
+		</script>
+	</body>
+</html>
